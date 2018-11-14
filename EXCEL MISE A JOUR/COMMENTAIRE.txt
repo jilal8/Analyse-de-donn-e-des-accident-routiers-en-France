@@ -1,0 +1,12 @@
+Pour pouvoir charger dans la base les information du jour j'ai eu besoin connaitre le mois plutot
+le libelle du moi c'est a dire janvier, fevrier ainsi de suite, c'est pourquoi j'ai changé le numero 
+du mois par son libelle dans le fichier excel time.xls.
+comme ça j'ai facilement charger le dimenison temps.
+et la meme maniere j'ai charger le dimension lieu.
+le dimension lieu aura desormais 4 hieracrchies:
+car les informations sur le circulation, infrastructure et categorieROUTE ne peuvent etre ensemble
+je voulu metre des hierarchies plutot que de niveau de d'hierarchie.
+-ALLlieu->region->departement->commune
+-ALLlieu->categorieROUTE
+-ALLlieu->infrastructure
+-ALLlieu->circulation
